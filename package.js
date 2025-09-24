@@ -18,7 +18,7 @@ Npm.depends({
 
 
 Package.onUse(function (api) {
-  api.versionsFrom(["3.0.1", "3.1"]);
+  api.versionsFrom(["3.0.1", "3.1","3.3.2"]);
   api.use([
     "underscore",
     "ecmascript",
@@ -50,7 +50,7 @@ Package.onTest(function (api) {
   api.use("mongo");
   api.use("random");
   api.use("accounts-password");
-  
+
   api.use("alanning:roles@4.0.0");
   api.use("ddp-server");
   api.use("ejson");
